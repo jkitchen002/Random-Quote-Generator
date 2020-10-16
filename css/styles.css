@@ -3,7 +3,7 @@
  * Random Quote Generator - CSS
  */
 
- @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap');
 
 body {
   background-color: rgb(58, 193, 98);
@@ -77,28 +77,29 @@ h1 {
 }
 
 .quote:before {
-  content: "“";
+  content: '“';
   top: 0.1em;
   left: -0.5em;
 }
 
 .quote:after {
-  content: "”";
+  content: '”';
   bottom: -0.1em;
   margin-left: 0.1em;
   position: absolute;
 }
 
 .source {
+  display: inline-block;
   font-size: 1rem;
   letter-spacing: 0.05em;
   line-height: 1.1;
   text-align: right;
-  margin-right: 4em;
+  margin-left: 35rem;
 }
 
 .source:before {
-  content: "—";
+  content: '—';
 }
 
 .citation {
@@ -106,12 +107,12 @@ h1 {
 }
 
 .citation:before {
-  content: ", ";
+  content: ', ';
   font-style: normal;
 }
 
 .year:before {
-  content: ", ";
+  content: ', ';
   font-style: normal;
 }
 
